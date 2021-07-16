@@ -1,0 +1,8 @@
+.flex {
+  display: flex;
+  width: auto;
+}
+
+.flex-item {
+  background-color: blanchedalmond;
+}
