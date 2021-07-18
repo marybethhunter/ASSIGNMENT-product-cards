@@ -1,13 +1,23 @@
 .flex {
   display: flex;
   flex-wrap: wrap;
-  width: auto;
 }
 
 .flex-item {
-  padding: 2%;
+  padding: 3%;
   flex-grow: 1;
-  flex-basis: 16%;
+  flex-basis: 28%;
   display: flex;
-  width: auto;
+  border: lightblue solid 1px;
+  justify-content: center;
+  margin: 5px;
+}
+
+h2 {
+  border: lightblue solid 1px;
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
 }
