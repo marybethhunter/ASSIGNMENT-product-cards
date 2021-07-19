@@ -7,5 +7,39 @@
   padding: 3%;
   flex-grow: 1;
   flex-basis: 28%;
-  display: flex;
+  box-shadow: 10px 10px 5px gray;
+  margin: 10px;
+}
+
+.card-title {
+  border: solid 1px lightblue;
+}
+
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-title {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+.availability {
+  background-color: darkgray;
+  color: yellow;
+  width: 100%;
+  float: left;
+}
+
+.card-body {
+  justify-content: center;
+}
+
+.image-center {
+  justify-content: center;
 }
