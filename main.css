@@ -14,13 +14,13 @@
   margin: 10px;
   align-self: center;
   align-items: center;
-  background: #C8E6C9;
+  background: #c8e6c9;
   max-width: 600px;
   max-height: 1000px;
 }
 
 .card-title {
-  border: solid 1px #388E3C;
+  border: solid 1px #388e3c;
   text-align: center;
   color: #212121;
   font-family: Questrial;
@@ -45,25 +45,27 @@ h5 {
 
 .card-body {
   flex: 1 1 auto;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 body {
   margin: 0px;
   padding: 0px;
-  background: #4CAF50;
+  background: #4caf50;
 }
 
 @media screen and (min-width: 400px) {
   body {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 800px) {
   body {
-    background-color: #388E3C;
+    background-color: #388e3c;
   }
- }
+}
 
 .image {
   text-align: center;
@@ -82,7 +84,6 @@ h2 {
 }
 
 .card-img-top {
-  
 }
 
 img {
