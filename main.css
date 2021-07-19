@@ -11,19 +11,23 @@
   padding: 0%;
   flex-grow: 1;
   flex-basis: 28%;
-  box-shadow: 10px 10px 5px gray;
+  box-shadow: 10px 10px 5px #388E3C;
   margin: 10px;
   align-self: center;
   align-items: center;
+  background: #C8E6C9;
+  max-width: 600px;
+  max-height: 1000px;
 }
 
 .card-title {
   border: solid 1px lightblue;
   text-align: center;
+  color: #212121;
 }
 
 p {
-  text-align: left;
+  color: #212121;
 }
 
 h5 {
@@ -31,24 +35,31 @@ h5 {
   color: yellow;
   width: 100%;
   height: 100%;
-  float: left;
 }
 
 .card-body {
   flex: 1 1 auto;
 }
 
-.image-center {
-  justify-content: center;
-  object-fit: cover;
-}
-
 body {
   margin: 0px;
   padding: 0px;
+  background: #4CAF50;
 }
 
-.image.fluid {
-  max-width: 100px;
-  height: auto;
+.image {
+  text-align: center;
 }
+
+
+/*
+MATERIAL PALETTE CSS
+.dark-primary-color    { background: #388E3C; }
+.default-primary-color { background: #4CAF50; }
+.light-primary-color   { background: #C8E6C9; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #8BC34A; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+*/
