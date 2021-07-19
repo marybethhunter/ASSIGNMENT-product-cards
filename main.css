@@ -1,27 +1,24 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
+  padding: 0%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .card {
-  padding: 3%;
+  padding: 0%;
   flex-grow: 1;
   flex-basis: 28%;
   box-shadow: 10px 10px 5px gray;
   margin: 10px;
+  align-self: center;
+  align-items: center;
 }
 
 .card-title {
   border: solid 1px lightblue;
-}
-
-.image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.card-title {
   text-align: center;
 }
 
@@ -29,17 +26,29 @@ p {
   text-align: left;
 }
 
-.availability {
+h5 {
   background-color: darkgray;
   color: yellow;
   width: 100%;
+  height: 100%;
   float: left;
 }
 
 .card-body {
-  justify-content: center;
+  flex: 1 1 auto;
 }
 
 .image-center {
   justify-content: center;
+  object-fit: cover;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.image.fluid {
+  max-width: 100px;
+  height: auto;
 }
