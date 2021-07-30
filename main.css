@@ -27,18 +27,22 @@ h1 {
   margin: 10px;
   align-self: center;
   align-items: center;
-  background: #C8E6C9;
+  background: #c8e6c9;
   max-width: 400px;
   max-height: 700px;
 }
 
 .card-title {
-  border: solid 1px #388E3C;
+  border: solid 1px #388e3c;
   text-align: center;
   color: #212121;
   font-family: Questrial;
   padding: 5px;
   margin-top: 5px;
+}
+
+#shadow {
+  box-shadow: 10px 10px 5px #000000;
 }
 
 p {
@@ -66,20 +70,20 @@ p {
 body {
   margin: 0px;
   padding: 0px;
-  background: #4CAF50;
+  background: #4caf50;
 }
 
 @media screen and (min-width: 400px) {
   body {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
   }
 }
 
 @media screen and (min-width: 800px) {
   body {
-    background-color: #388E3C;
+    background-color: #388e3c;
   }
- }
+}
 
 .image {
   text-align: center;
@@ -100,21 +104,34 @@ h2 {
   font-family: Questrial;
 }
 
-.card-img-top {
-  
-}
-
 img {
   align-items: baseline;
   max-height: 350px;
   max-width: 200px;
   margin-bottom: 30px;
-  box-shadow: 10px 10px 5px #000000;
 }
 
 .img-div {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  position: absolute;
+  top: 40px;
+  left: 90px;
 }
 
 /*
